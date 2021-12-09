@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/web_portfolio/static/css/main.1b67f184.chunk.css",
+    "main.js": "/web_portfolio/static/js/main.7fdf81cf.chunk.js",
+    "main.js.map": "/web_portfolio/static/js/main.7fdf81cf.chunk.js.map",
+    "runtime-main.js": "/web_portfolio/static/js/runtime-main.0ca1175d.js",
+    "runtime-main.js.map": "/web_portfolio/static/js/runtime-main.0ca1175d.js.map",
+    "static/css/2.e6c1e8c5.chunk.css": "/web_portfolio/static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.1b0b13a8.chunk.js": "/web_portfolio/static/js/2.1b0b13a8.chunk.js",
+    "static/js/2.1b0b13a8.chunk.js.map": "/web_portfolio/static/js/2.1b0b13a8.chunk.js.map",
+    "static/js/3.bf9b1541.chunk.js": "/web_portfolio/static/js/3.bf9b1541.chunk.js",
+    "static/js/3.bf9b1541.chunk.js.map": "/web_portfolio/static/js/3.bf9b1541.chunk.js.map",
+    "index.html": "/web_portfolio/index.html",
+    "static/css/2.e6c1e8c5.chunk.css.map": "/web_portfolio/static/css/2.e6c1e8c5.chunk.css.map",
+    "static/css/main.1b67f184.chunk.css.map": "/web_portfolio/static/css/main.1b67f184.chunk.css.map",
+    "static/js/2.1b0b13a8.chunk.js.LICENSE.txt": "/web_portfolio/static/js/2.1b0b13a8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/web_portfolio/static/media/NanumSquareR.ae1f7894.otf",
+    "static/media/Tech Life Dog.56beccef.png": "/web_portfolio/static/media/Tech Life Dog.56beccef.png",
+    "static/media/email-logo.d414f3d5.svg": "/web_portfolio/static/media/email-logo.d414f3d5.svg",
+    "static/media/instagram-logo.5be46ff6.jpg": "/web_portfolio/static/media/instagram-logo.5be46ff6.jpg",
+    "static/media/kakaotalk-logo.07134155.png": "/web_portfolio/static/media/kakaotalk-logo.07134155.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ca1175d.js",
+    "static/css/2.e6c1e8c5.chunk.css",
+    "static/js/2.1b0b13a8.chunk.js",
+    "static/css/main.1b67f184.chunk.css",
+    "static/js/main.7fdf81cf.chunk.js"
+  ]
+}
