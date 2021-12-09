@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <div className="container-fluid" style={{ height: viewport.height }}>
         <div className="row content">
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<ContactPage />} />
