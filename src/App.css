@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Nanum Square";
+  font-weight: 300;
+  src: url("./fonts/NanumSquareL.otf");
+}
+
+@font-face {
+  font-family: "Nanum Square";
+  font-weight: 400;
+  src: url("./fonts/NanumSquareR.otf");
+}
+
+@font-face {
+  font-family: "Nanum Square";
+  font-weight: 500;
+  src: url("./fonts/NanumSquareB.otf");
+}
+
+@font-face {
+  font-family: "Nanum Square";
+  font-weight: 600;
+  src: url("./fonts/NanumSquareEB.otf");
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 30px;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.content {
+  height: 100%;
+}
+
+.left-content {
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.centered-img {
+  width: 45%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bottom-nav > li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.bottom-nav > li > a > div {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.bottom-nav > li > a > div:hover {
+  color: #1c7ed6;
+}
+
+.mantine-Text-root {
+  font-family: "Nanum Square";
+}
+
+.contact-wrapper {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-100%) translateX(-50%);
+}
+
+.contact-wrapper > a > img {
+  width: 100px;
+  height: 100px;
+}
