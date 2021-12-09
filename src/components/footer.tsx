@@ -1,18 +1,19 @@
 import React from "react";
 import { Text } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 function footer() {
   return (
     <footer className="footer">
       <div>
-        <a href="/">
+        <Link to="/">
           <Text
             weight={500}
             style={{ fontSize: 24, color: "rgba(0, 0, 0, 0.4)" }}
           >
             @thth_ooo
           </Text>
-        </a>
+        </Link>
       </div>
       <nav className="bottom-nav">
         <li>
@@ -31,9 +32,9 @@ function footer() {
           </a>
         </li>
         <li>
-          <a href="/contact">
+          <Link to="/contact">
             <Text>연락처</Text>
-          </a>
+          </Link>
         </li>
       </nav>
     </footer>

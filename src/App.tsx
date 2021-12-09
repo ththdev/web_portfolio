@@ -15,6 +15,8 @@ function App() {
   });
 
   useEffect(() => {
+    console.log("PUBLIC URL: ", process.env.PUBLIC_URL);
+    console.log(process.env.NODE_ENV);
     function onResize() {
       setViewport({
         width: window.innerWidth,
@@ -27,13 +29,19 @@ function App() {
     <div className="App">
       <div className="container-fluid" style={{ height: viewport.height }}>
         <div className="row content">
-          <BrowserRouter basename={process.env.PUBLIC_URL}>
+          <BrowserRouter
+            basename={
+              process.env.NODE_ENV === "development"
+                ? "/"
+                : process.env.PUBLIC_URL
+            }
+          >
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/contact" element={<ContactPage />} />
             </Routes>
+            <Footer />
           </BrowserRouter>
-          <Footer />
         </div>
       </div>
     </div>
