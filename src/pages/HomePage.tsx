@@ -1,23 +1,28 @@
 import React from "react";
 import { Text } from "@mantine/core";
 import TechDog from "../Tech Life Dog.png";
+import TextTransition from "react-text-transition";
+
+const Texts = ["오늘보다 내일 더 나은", "추진력이 강한", "호기심이 많은"];
 
 function HomePage() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() => {
+      setIndex((index) => index + 1);
+    }, 3000);
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <>
       <div className="col-md-6">
         <Text className="hero-title" size="xl" weight={700}>
-          <Text
-            className="hero-title"
-            component="span"
-            variant="gradient"
-            gradient={{ from: "indigo", to: "cyan", deg: 45 }}
-            size="xl"
-            weight={700}
-          >
-            오늘보다 내일 더 나은
-            <br />
-          </Text>
+          <TextTransition
+            text={Texts[index % Texts.length]}
+            style={{ color: "#1c7ed6" }}
+          />
           개발자 이태희 입니다
         </Text>
         <Text size="xl" style={{ marginTop: 30 }}>

@@ -106,3 +106,9 @@ a {
   width: 100px;
   height: 100px;
 }
+
+.gradient-text > span {
+  background: linear-gradient(45deg, #4c6ef5 0%, #15aabf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
